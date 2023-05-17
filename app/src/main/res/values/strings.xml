@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">EROSIÓN HÍDRICA DEL SUELO</string>
+    <string name="tvTerosion">PÉRDIDA ANUAL DEL SUELO</string>
+    <string name="tvMerosion">La ecuación de RUSLE, estima las pérdidas de suelo anuales, como valor promedio de un periodo representativo de años, que se producen en la superficie del terreno debido a la erosión superficial, laminar y en regueros, ante variables que determinan condiciones de clima, suelo, relieve, vegetación y uso de suelo.\n\nA = R x K x (LS) x C x P</string>
+    <string name="buCerrar">Cerrar</string>
+    <string name="buAnterior">Anterior</string>
+    <string name="buSiguiente">Siguiente</string>
+    <string name="tvCopyRigth">Desarrollado por:\n- Ing. Humberto Silvera Reynaga\n(betoangelito@gmail.com - 999009305)\n- Ing. Joel Palomino Cáceres\n(joel331@gmail.com - 941864419)</string>
+    <string name="tvTerosividad">FACTOR DE EROSIVIDAD (R)</string>
+    <string name="tvMerosividad">Capacidad potencial que tiene las gotas de agua de lluvia para causar erosión:\nExpresado en: MJ . mm . ha-1 . h-1 . año-1\n\nSe utilizo la ecuación desarrollada por Wischmeier y Smith (1987), para el cálculo de este factor.</string>
+    <string name="tvAerosividad">Selecciones una región, y luego presiones un año.</string>
+    <string name="tvRegion">Región:</string>
+    <string name="tvAnio">Año:</string>
+    <string name="tvFerosividad">Factor de\nErosividad:</string>
+    <string name="etNro">0.00</string>
+    <string name="tvIdentificador">Fuente:</string>
+    <string name="tvSenamhi">Servicio Nacional de Meteorología e Hidrología (SENAMHI)</string>
+
+    <string name="tvTerodabilidad">FACTOR DE ERODABILIDAD (K)</string>
+    <string name="tvMerodabilidad">La erodabilidad de suelo es un índice que indica la vulnerabilidad o susceptibilidad a la erosión y que depende de las propiedades intrínsecas de cada suelo. Cuanto mayor sea la erodabilidad mayor será el porcentaje de erosión.\nExpresado en: Ton . ha . h . ha-1 . MJ-1 . mm-1</string>
+    <string name="tvAerodabilidad">Seleccione tipo de suelo (deslizable), y textura.</string>
+    <string name="tvSuelo">Tipo de\nSuelo:</string>
+    <string name="tvTextura">Textura de Suelo:</string>
+    <string name="tvFerodabilidad">Factor de\nErodabilidad:</string>
+
+    <string name="tvTtopografico">FACTOR TOPOGRAFICO (LS)</string>
+    <string name="tvMtopografico">El factor LS, hace referéncia a la topografía del terreno que afecta el proceso de erosión. la erosión aumenta conforme la longitud del terreno (L), y la inclinación del terreno (S).\nEcuación desarrollada por Wischimeier y Smith (1987)\nEs adimensional.\n- Longitud de pendiente o ladera (metros).\n- Inclinación porcentual de la pendiente (Altura/Longitud horizontal) (metros).</string>
+    <string name="tvAtopografico">Ingrese ladera (metros), y angulo (sexagesimal); luego presione Calcular.</string>
+    <string name="tvLadera">Ladera:</string>
+    <string name="tvLongHorizontal">Angulo:</string>
+    <string name="tvAltura">Altura:</string>
+    <string name="tvFtopografico">Factor Topográfico:</string>
+    <string name="buCalcular">Calcular</string>
+
+    <string name="tvTcobertura">COBERTURA VEGETAL (C)</string>
+    <string name="tvMcobertura">Los principales factores que controlan la cubierta vegetal son las copas, superficie de la vegetación, uso de la tierra, rugosidad de la superficie y la humedad del suelo. Esta amplia gama de factores es difícil y costoso para estimar, a menudo varia considerablemenete todo el año.\nEs adimensional.</string>
+    <string name="tvAcobertura">Seleccione tipo de suelo (deslizable).</string>
+    <string name="tvFcobertura">Factor de\nCobertura Vegetal:</string>
+    <string name="tvFuenteC">Imagenes del Global Land Cover (GCL), se utilizaron para la estimación de la cubierta vegetal a través de imágenes satelitales.</string>
+
+    <string name="tvTpractica">PRÁCTICAS DE CONSERVACIÓN (P)</string>
+    <string name="tvMpractica">Recoge la influencia que tienen las prácticas de conservación de suelos sobre las tasas de erosión, realizando los trabajos culturales o disponiendo la vegetación siguiendo curvas de nivel, en fajas o en terrazas para cortar ls líneas de escorrentía.\nEs adimensional.</string>
+    <string name="tvApractica">Seleccione tipo de práctica (deslizable).</string>
+    <string name="tvPractica">Tipo de Práctica:</string>
+    <string name="tvPendiente">Pendiente (%):\n</string>
+    <string name="tvFpractica">Factor Práctica:</string>
+    <string name="tvFuenteP">Factor de prácticas de conservación (Kim, 2006).</string>
+
+    <string name="tvTperdida">PÉRDIDA ANUAL DEL SUELO</string>
+    <string name="tvMperdida">La ecuación de RUSLE, estima las pérdidas de suelo anuales, como valor promedio de un periodo representativo de años, que se producen en la superficie del terreno debido a la erosión superficial, laminar, y en regueros, ante variables que determinan condiciones de clima, suelo, relieve, vegetación y uso de suelo.</string>
+    <string name="tvAperdida">Variables:</string>
+
+    <string name="tvTtierra">PÉRDIDA DE SUELO Y ALTURA POR AÑO</string>
+    <string name="tvMtierra">determina la pérdida total de la ladera y altura de cuenca en periodo de años.\nLa unidad esta en (Kg/m3), Fuente: Estabilidad de las Contrucciones (Arq. Jose Creixell M)</string>
+    <string name="tvTierra">Tierra/\nArena/\nGrava:</string>
+    <string name="tvUnidad">Unidad (Kg/m3):</string>
+    <string name="tvAncho">Perimetro de\nCuenca (metros):</string>
+    <string name="tvAtierra">Ingrese perimetro de cuenca,\nluego presione Calcular.</string>
+
+    <string name="buSimular">Simular</string>
+    <string name="tvAestadistica">Presione el boton Simular,\ny luego seleccione el año.</string>
+</resources>
